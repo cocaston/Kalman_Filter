@@ -7,6 +7,7 @@ INCLUDE_DIRECTORIES(
     ${EIGEN3_INCLUDE_DIR})
 
 add_executable(kf src/lidar_kf.cpp )
+add_executable(ekf src/radar_ekf.cpp )
 # target_link_libraries(kf)
 
 set(CMAKE_INSTALL_PREFIX "../install")
